@@ -4,11 +4,6 @@ import { Schema, model } from "mongoose";
 import api from "./api";
 import { connectDB } from "./db/mongoose";
 import cors from "cors";
-const likeSchema = new Schema({
-  name: String,
-  url: String,
-  user: String,
-});
 
 dotenv.config();
 connectDB();
